@@ -41,7 +41,7 @@ const ExperienceCard = ({ experience }) => {
           <li
             key={`experience-point-${index}`}
             className="text-white-100 text-[14px] pl-1 tracking-wider"
-            style={{ "list-style-type": "circle" }}
+            style={{ listStyleType: "circle" }}
           >
             {point}
           </li>
