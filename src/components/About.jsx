@@ -49,10 +49,10 @@ const About = () => {
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
         I'm a skilled software engineer with experience in TypeScript,
-        Javascript and Pytyhon. I have worked on projects ranging from
-        full-stack contact center web applications to implementing ETL on a data
-        warehouse and visualizing the data in Power BI. I also have experience
-        working with DevOps technologies such as Docker, Terraform and Jenkins.
+        Javascript and Python. I have worked on projects ranging from full-stack
+        contact center web applications to implementing ETL on a data warehouse
+        and visualizing the data in Power BI. I also have experience working
+        with DevOps technologies such as Docker, Terraform and Jenkins.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
