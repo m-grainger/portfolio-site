@@ -114,7 +114,7 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Sr. Customer Data Services Engineer",
+    title: " Sr. Migrations Engineer",
     company_name: "Smarsh",
     icon: smarsh,
     iconBg: "#383E56",
@@ -123,7 +123,7 @@ const experiences = [
   },
 
   {
-    title: "Systems Data Engineer",
+    title: "Software Engineer",
     company_name: "Smarsh",
     icon: smarsh,
     iconBg: "#383E56",
