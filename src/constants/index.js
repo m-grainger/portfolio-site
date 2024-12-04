@@ -15,11 +15,9 @@ import {
   git,
   python,
   docker,
+  bend,
   smarsh,
   terazo,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
 } from "../assets";
 
@@ -114,19 +112,31 @@ const technologies = [
 
 const experiences = [
   {
-    title: " Sr. Migrations Engineer",
-    company_name: "Smarsh",
-    icon: smarsh,
+    title: "Cloud Software Engineer",
+    company_name: "Bend by FNBO",
+    icon: bend,
     iconBg: "#383E56",
-    date: "June 2017 - December 2019",
+    date: "July 2023 - Present",
     points: [
-      "Utilized programming languages such as Python, Bash, and Windows scripting for developing efficient and effective solutions.",
-      "Provided support for custom applications used for large-scale data migrations using Smarsh's internal systems",
-      "Maintained security and confidentiality of sensitive customer data by adhering to established security protocols and procedures",
-      "Developed custom scripting solutions for customer-facing projects, leveraging technical expertise and creativity to meet clients'needs",
+      "Lead developer for the React application team; enhancing/maintaining a Twilio Flex servicing application",
+      "Work in Agile methodology using Jira for story/task completion",
+      "Identify and implement improvements in front-end architecture and tooling to enhance developer productivity and code maintainability",
+      "Manage and troubleshoot a REST API built with AWS CDK in AWS infrastructure",
     ],
   },
-
+  {
+    title: "Software Engineer",
+    company_name: "Terazo",
+    icon: terazo,
+    iconBg: "#383E56",
+    date: "July 2021 - April 2023",
+    points: [
+      "Collaborated with various clients and worked on multiple engagements that ranged from building custom contact centers using React.JS to creating dynamic Power BI dashboards that were seamlessly integrated with AWS Redshift.",
+      "Developed server-side applications using Python, Node.js, Flask, FastAPI and Moluculer.js frameworks",
+      "Developed custom contact centers using Node.js and React.js",
+      "Contributed to SRE and DevOps tasks, including setting up Datadog services, deploying to AWS with Terraform, and creating a CI/CD pipeline with Jenkins.",
+    ],
+  },
   {
     title: "Software Engineer",
     company_name: "Smarsh",
@@ -140,18 +150,17 @@ const experiences = [
       "Improved user experience and increased efficiency in data processing by developing new customer tools",
     ],
   },
-
   {
-    title: "Software Engineer",
-    company_name: "Terazo",
-    icon: terazo,
+    title: " Sr. Migrations Engineer",
+    company_name: "Smarsh",
+    icon: smarsh,
     iconBg: "#383E56",
-    date: "July 2021 - April 2023",
+    date: "June 2017 - December 2019",
     points: [
-      "Collaborated with various clients and worked on multiple engagements that ranged from building custom contact centers using React.JS to creating dynamic Power BI dashboards that were seamlessly integrated with AWS Redshift.",
-      "Developed server-side applications using Python, Node.js, Flask, FastAPI and Moluculer.js frameworks",
-      "Developed custom contact centers using Node.js and React.js",
-      "Contributed to SRE and DevOps tasks, including setting up Datadog services, deploying to AWS with Terraform, and creating a CI/CD pipeline with Jenkins.",
+      "Utilized programming languages such as Python, Bash, and Windows scripting for developing efficient and effective solutions.",
+      "Provided support for custom applications used for large-scale data migrations using Smarsh's internal systems",
+      "Maintained security and confidentiality of sensitive customer data by adhering to established security protocols and procedures",
+      "Developed custom scripting solutions for customer-facing projects, leveraging technical expertise and creativity to meet clients'needs",
     ],
   },
 ];
@@ -186,70 +195,6 @@ const testimonials = [
   },
 ];
 
-const projects = [
-  {
-    name: "Car Rent",
-    description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
-  },
-];
+const projects = [];
 
 export { services, technologies, experiences, testimonials, projects };
