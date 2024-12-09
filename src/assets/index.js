@@ -19,14 +19,11 @@ import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
+import threejs from "./tech/threejs.png";
 
 import smarsh from "./company/smarsh.png";
 import terazo from "./company/terazo.png";
-
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import bend from "./company/bend.png";
 
 export {
   mglogo1,
@@ -50,9 +47,7 @@ export {
   tailwind,
   typescript,
   threejs,
+  bend,
   smarsh,
   terazo,
-  carrent,
-  jobit,
-  tripguide,
 };
